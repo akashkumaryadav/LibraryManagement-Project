@@ -20,6 +20,7 @@ __*Don't forget to Create new branch and then make a pull request I'll mentions 
 5. eclipse or any javaIDE
 6. jdk11+
 > for reference of GUI check Images Folder
+> or you can refer to https://youtu.be/02HJ094B1-I
 
 >## Features
 #### 1. add Member to library
