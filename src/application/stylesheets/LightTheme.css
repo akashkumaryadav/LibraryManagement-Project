@@ -1,0 +1,200 @@
+.root{
+	-fx-primary-color:#fafafa;
+	-fx-secondry-color:#bf360c;
+}
+
+.base{
+	-fx-background-color:-fx-primary-color;
+}
+
+.addBook{
+	-fx-text-fill:#4d4d4d;
+}
+
+.addBook:hover{
+	-fx-background-color:-fx-secondry-color;
+	-fx-text-fill:-fx-primary-color;
+}
+
+.addMember{
+	-fx-text-fill:#4d4d4d;
+}
+
+.addMember:hover{
+	-fx-background-color:-fx-secondry-color;
+	-fx-text-fill:-fx-primary-color;
+}
+
+.settings{
+	-fx-text-fill:#4d4d4d;
+}
+
+.settings:hover{
+	-fx-background-color:#00b0ff;
+	-fx-text-fill:-fx-primary-color;	
+}
+
+.issueBook{
+	-fx-background-color:-fx-primary-color;	
+	-fx-text-fill:-fx-secondry-color;
+	-fx-font-family:Arial;
+	-fx-font-size:18px;
+	-fx-border-radius:100%;
+	-fx-border-color:-fx-secondry-color;
+	-fx-border-radius:20px;
+	-fx-background-radius:20px;
+	-fx-pref-width:180px;
+	-fx-pref-height:20px;
+	
+}
+
+.issueBook:hover{
+	-fx-background-color:-fx-secondry-color;
+	-fx-text-fill:-fx-primary-color;
+}
+
+.renewBook{
+	-fx-border-color:#40c4ff;
+	-fx-text-fill:#40c4ff;
+	-fx-border-width:2 2 2 2;
+	-fx-border-radius:20px;
+	-fx-background-radius:20px;
+	-fx-pref-width:180px;
+	-fx-pref-height:20px;
+}
+
+.renewBook:hover{
+	-fx-background-color:#40c4ff;
+	-fx-text-fill:-fx-primary-color;
+}
+
+
+.submitBook{
+	-fx-border-color:#ffd600;
+	-fx-text-fill:#ffd600;
+	-fx-border-width:2 2 2 2;
+	-fx-border-radius:20px;
+	-fx-background-radius:20px;
+	-fx-pref-width:180px;
+	-fx-pref-height:20px;
+}
+
+.submitBook:hover{
+	-fx-background-color:#ffd600;
+	-fx-text-fill:-fx-primary-color;
+}
+
+.check{
+	-fx-fill:#e9e9e9;
+}
+
+.menuIcons{
+	-fx-pref-width:30px;
+	-fx-pref-height:30px;
+	-fx-alignment:CENTER;
+}
+
+.text-field{
+	-fx-pref-width:100px;
+}
+
+
+.menuButtons{
+	-fx-content-display:LEFT;
+	-fx-pref-width:159.8px;
+}
+
+.label{
+	-fx-text-fill:#4d4d4d;
+}
+.menubar{
+	-fx-background-color:-fx-primary-color;
+}
+
+
+.found{
+	-fx-text-fill:black;
+}
+
+.notfound{
+	-fx-text-fill:#e53935;
+}
+
+.available{
+	-fx-text-fill:#4caf50;
+}
+
+.text-field{
+	-fx-text-fill:-fx-secondry-color;
+	-fx-font-size:15px;
+	-jfx-focus-color:-fx-secondry-color;
+}
+
+.queryNotExist{
+	-jfx-focus-color:#e53935;
+	-jfx-unfocus-color:#e53935;
+	-fx-text-fill:#e53935;
+}
+
+.queryExist{
+	-jfx-focus-color:#4caf50;
+	-jfx-unfocus-color:#4caf50;
+	-fx-text-fill:#4caf50;
+}
+
+.default{
+	-jfx-focus-color:-fx-secondry-color;
+	-jfx-unfocus-color:-fx-secondry-color;
+	-fx-text-fill:-fx-secondry-color;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:70px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color:transparent;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+    -fx-pref-width:380px;
+    -fx-pref-height:40px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.tab-pane .tab
+{
+    -fx-background-color: -fx-primary-color;
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: -fx-primary-color;
+    -fx-border-color: #a3a7a8 #a3a7a8 -fx-secondry-color #a3a7a8;  
+    -fx-border-width: 0 0 4 0;     
+    -fx-border-radius: 0 0 0 0;  
+    -fx-focus-color: #a3a7a8 #a3a7a8 -fx-secondry-color #a3a7a8;
+    }
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: -fx-primary-color;
+    -fx-text-fill:black;
+}

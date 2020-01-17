@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-primary-color:#2E2E2E;
+	-secondry-color:#8bc34a
+}
+
+.base{
+	-fx-background-color:-primary-color;
+}
+
+.tab{
+	-fx-background-color:-primary-color;
+	-fx-text-fill:white;
+	-fx-pref-width:200px;
+	-fx-pref-height:60px;
+	-fx-font-weight:32px;
+}
+
+.tab-header-background{
+	-fx-background-color:-primary-color;
+}
+Tab{
+	-fx-text-fill:white;
+	-fx-font-size:24px;
+}
